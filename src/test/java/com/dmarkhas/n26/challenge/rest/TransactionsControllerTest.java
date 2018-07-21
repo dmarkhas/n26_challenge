@@ -104,7 +104,8 @@ public class TransactionsControllerTest {
                 .andExpect(jsonPath("$.avg", Matchers.is(TEST_AVG)))
                 .andExpect(jsonPath("$.max", Matchers.is(TEST_MAX)))
                 .andExpect(jsonPath("$.min", Matchers.is(TEST_MIN)))
-                .andExpect(jsonPath("$.count", Matchers.is(TEST_COUNT)));
+                .andExpect(jsonPath("$.count").value(Matchers.is(TEST_COUNT),Long.class));
+
 
     }
 
