@@ -15,7 +15,7 @@ public class StatisticsAggregator {
 
     private double min;
 
-    private int count;
+    private long count;
 
     public StatisticsAggregator(TransactionModel transaction)
     {
