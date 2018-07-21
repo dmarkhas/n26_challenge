@@ -13,5 +13,5 @@ public class StatisticsDto {
 
     private double min;
 
-    private double count;
+    private long count;
 }

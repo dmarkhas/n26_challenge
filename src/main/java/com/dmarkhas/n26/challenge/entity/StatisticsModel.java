@@ -13,7 +13,7 @@ public class StatisticsModel {
 
     private double min;
 
-    private double count;
+    private long count;
 
     public void aggregate(StatisticsAggregator aggregator)
     {
